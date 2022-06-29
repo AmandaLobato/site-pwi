@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draverna</title>
+    <link rel="stylesheet" href="css/dravernacss.css">
+    <link rel="shortcut icon" href="img/draverna.png" type=" image/x-icon ">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img class="logo" src="img/draverna3.png" alt=" ">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"> <a href="login.html" class="nav-link">Login</a></li>
+                    <li class="nav-item"> <a href="cadastro.html" class="nav-link">Cadastro</a></li>
+                    <li class="nav-item"> <a href="index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"> <a href="quem_somos.html" class="nav-link">Quem Somos</a></li>
+                    <li class="nav-item"> <a href="cardapio.html" class="nav-link">Cardápio</a></li>
+                    <li class="nav-item"> <a href="promocoes.html" class="nav-link">Promoções</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/icon.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"> <a href="login.html" class="nav-link">Login</a></li>
+                <li class="nav-item"> <a href="index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"> <a href="quem_somos.html" class="nav-link">Quem Somos</a></li>
+                <li class="nav-item"> <a href="cardapio.html" class="nav-link">Cardápio</a></li>
+                <li class="nav-item"> <a href="promocoes.html" class="nav-link">Promoções</a></li>
+            </ul>
+        </div>
+
+        <script src="menu.js"></script>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slides">
+
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="img/prop1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/prop2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/prop3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/prop4.png" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="scriptimg.js"></script>
+        <div class="container">
+
+            <img src="img/fundo/fundo3.jpg" alt="" class="fundo">
+            <div id="carta">
+                <div id="frente">
+                    <h2 class="slogan">Venha para acreditar que a magia existe!</h2>
+                </div>
+                <div id="atras">
+                    <p class="face" id="back">Um restaurante temático para você, sua familía e seus amigos se divertirem, com um ambiente ambientalizado para proporcionar a diversão que você merece, contamos também com umcardápio muito variado e drinks deliciosos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="part">
+            <h2 id="titulo">CRIADORES</h2>
+            <p class="text">Esse foi um projeto feito por Amanda Lobato e Emanuel Martins do Técnico de Desenvolvimento de Sistemas da Etec de Sapopemba, onde o objetivo foi criar um site com HTML, CSS e Javascript e hospeda-lo. A ideia para esse site foi criar um restaurante fictício com o tema criaturas mitológicas que seria ambientalizado de acordo com o habitat que os personagens mitológicos vivem.</p>
+        </div>
+    </main>
+    <footer>
+        <nav class="nav-rod">
+            <div class="tel"><img src="img/tel.png" alt="">
+                <h1 class="footer">(11) 2256-5245</h1>
+            </div>
+
+            <div class="local">
+                <img src="img/local.png" alt="">
+                <h1 class="footer"> Rua Benjamin de Tudela, n°155</h1>
+            </div>
+
+            <div class="nav-icons">
+                <ul>
+                    <li class="nav-icon"><a href="#" class="nav-list"><img src="img/face.png" alt=""></a></li>
+                    <li class="nav-icon"><a href="#" class="nav-list"><img src="img/insta.png" alt=""></a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+
+    </div>
+
+</body>
+
+</html>
